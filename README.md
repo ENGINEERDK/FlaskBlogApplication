@@ -5,9 +5,13 @@ Flask is a small and lightweight Python web framework that provides useful tools
 
 ## Simple Steps to get Started quickly-
 
-### Installation: pip install flask
-### verify : python -c "import flask; print(flask.__version__)"
-### Set Flask env variables(in Windows): set FLASK_APP=(name of main python file i.e. main)
+```bash
+Installation: pip install flask
+verify : python -c "import flask; print(flask.__version__)"
+Set Flask env variables(in Windows): set FLASK_APP=(name of main python file i.e. main)
                                      set export FLASK_ENV=development
-### Setup Sqlite DB : python init_db.py
-### Run : flask run -p 8080
+Setup Sqlite DB : python init_db.py
+Run : flask run -p 8080
+```
+
+### Thanks - Deepak Y.
